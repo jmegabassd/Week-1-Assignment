@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html {
+  background: url(/Images/sheetmusic.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
 h1 {
   font-size: 30px;
 }
@@ -13,10 +18,15 @@ h2 {
   font-size: 15px;
 }
 
-.header {
+body {
+  margin: 0px;
+}
+
+header {
   position: fixed;
+  top: 0px;
   color: black;
-  background-color: rgb(129, 129, 129);
+  background-color: coral;
   width: 100%;
   text-align: center;
 }
@@ -33,26 +43,14 @@ h2 {
   margin: 10px;
 }
 
-.maindiv {
-  background-image: url("Images/sheetmusic.png");
-}
-
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.section {
+section {
   border: 5px;
-  background-color: cadetblue;
+  border-radius: 20px;
+  background-color: cornsilk;
   color: black;
   border: 2px;
-  border-style: solid;
-  border-color: black;
-  margin: 40px;
-  padding: 10px;
+  padding: 30px;
+  margin: 100px;
 }
 
 .button {
@@ -65,7 +63,10 @@ h2 {
 }
 
 footer {
-  background-color: rgb(129, 129, 129);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: coral;
   text-align: center;
   padding: 12px;
 }
