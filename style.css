@@ -16,15 +16,20 @@
   }
 }
 
-#section1 {
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+#Computers {
   background-color: rgb(135, 135, 250);
 }
 
-#section2 {
+#Audio-Interfaces {
   background-color: rgb(163, 85, 85);
 }
 
-#section3 {
+#Software {
   background-color: rgb(181, 238, 125);
 }
 
