@@ -1,37 +1,71 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
 * {
-  box-sizing: border-box;
   font-family: monospace;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 15px;
 }
 
 .header {
-  position: sticky;
-  top: 0;
-  background-color: aqua;
+  position: fixed;
+  color: black;
+  background-color: rgb(129, 129, 129);
+  width: 100%;
+  text-align: center;
 }
 
 .navlinks {
-  float: right;
   a:hover {
     color: deeppink;
   }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin: 10px;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+.maindiv {
+  background-image: url("Images/sheetmusic.png");
 }
 
-#Computers {
-  background-color: rgb(135, 135, 250);
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-#Audio-Interfaces {
-  background-color: rgb(163, 85, 85);
+.section {
+  border: 5px;
+  background-color: cadetblue;
+  color: black;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 40px;
+  padding: 10px;
 }
 
-#Software {
-  background-color: rgb(181, 238, 125);
+.button {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
 }
 
-.mainclass {
+footer {
+  background-color: rgb(129, 129, 129);
+  text-align: center;
+  padding: 12px;
 }
