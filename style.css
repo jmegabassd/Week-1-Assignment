@@ -1,3 +1,32 @@
 * {
   box-sizing: border-box;
+  font-family: monospace;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+}
+
+.navlinks {
+  float: right;
+  a:hover {
+    color: deeppink;
+  }
+}
+
+#section1 {
+  background-color: rgb(135, 135, 250);
+}
+
+#section2 {
+  background-color: rgb(163, 85, 85);
+}
+
+#section3 {
+  background-color: rgb(181, 238, 125);
+}
+
+.mainclass {
 }
