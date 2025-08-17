@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Audio Creation</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header>
+      <img id="headimg" src="/Images/bassclef.png" alt="" />
       <h1>Making Digital Music</h1>
       <nav>
         <div class="navlinks">
           <ul>
             <a href="#top">Home</a>
             <a href="#Computers">Computers</a>
-            <a href="#Audiointerfaces">Audio Interface</a>
+            <a href="#Audiointerface">Audio Interface</a>
             <a href="#Software">Software</a>
           </ul>
         </div>
@@ -25,16 +31,23 @@
     <main>
       <section id="Computers">
         <img src="/Images/computer.png" alt="a picture of a computer" />
-        <h1>Computers</h1>
-        <h2>Making music with computers.</h2>
-        <button class="button">Computers</button>
+        <div class="sformat">
+          <h1>Computers</h1>
+          <h2>Making music with computers.</h2>
+          <button class="button">Read More Here</button>
+        </div>
       </section>
 
-      <section id="#Audiointerfaces">
-        <img src="Images/soundcard.png" alt="An audio interface picture" />
-        <h1>Audio Interfaces</h1>
-        <h2>What audio interface should I use.</h2>
-        <button class="button">Audio Interfaces</button>
+      <section id="Audiointerface">
+        <img
+          src="/Images/soundcard.png"
+          alt="An example of an audio interface"
+        />
+        <div class="sformat">
+          <h1>Audio Interfaces</h1>
+          <h2>Which audio internface should i use.</h2>
+          <button class="button">Read More Here</button>
+        </div>
       </section>
 
       <section id="Software">
@@ -42,12 +55,30 @@
           src="Images/music-software.png"
           alt="A picture of some music software"
         />
-        <h1>Software</h1>
-        <h2>Which software will I need.</h2>
-        <button class="button">Music Software</button>
+        <div class="sformat">
+          <h1>Software</h1>
+          <h2>Which software will I need.</h2>
+          <button class="button">Read More Here</button>
+        </div>
       </section>
+      <a href="#" class="top">Back to Top &#8593;</a>
     </main>
 
-    <footer>Copywrite Megabass Corp ©</footer>
+    <footer>
+      Copywrite Megabass Corp ©
+      <div class="sociallinks">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </footer>
+    <div id="music">
+      <!-- <audio controls autoplay src="/Music/Muddy Waters.m4a">
+        Your browser does not support the audio element.
+      </audio> -->
+    </div>
   </body>
 </html>

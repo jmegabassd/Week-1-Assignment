@@ -8,6 +8,7 @@
 html {
   background: url(/Images/sheetmusic.png) no-repeat center center fixed;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -31,10 +32,19 @@ header {
   text-align: center;
 }
 
+#headimg {
+  position: absolute;
+  left: 0px;
+  max-width: 100px;
+  height: auto;
+  margin: 5px;
+}
+
 .navlinks {
   a:hover {
     color: deeppink;
   }
+  font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -53,13 +63,20 @@ section {
   margin: 100px;
 }
 
+.sformat {
+  background-color: coral;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 40%;
+}
+
 .button {
   background-color: black;
   color: white;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px;
 }
 
 footer {
@@ -69,4 +86,34 @@ footer {
   background-color: coral;
   text-align: center;
   padding: 12px;
+}
+
+.sociallinks {
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0px;
+  gap: 8px;
+}
+
+#music {
+  position: fixed;
+  bottom: 40px;
+  right: 3px;
+}
+
+.top {
+  /* place-self: end; */
+  float: right;
+  position: sticky;
+  bottom: 70px;
+  margin-top: 100vh;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
 }
