@@ -106,11 +106,11 @@ footer {
 }
 
 .top {
-  /* place-self: end; */
   float: right;
   position: sticky;
   bottom: 70px;
   margin-top: 100vh;
+  font-weight: bolder;
   text-decoration: none;
   padding: 10px;
   color: #fff;
